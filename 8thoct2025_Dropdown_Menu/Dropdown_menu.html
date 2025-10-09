@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dropdown_Menu</title>
+  <style>
+    body{
+        background-color: rgb(4, 134, 181);
+        
+    }
+    .top-nav {
+      display: flex;
+      align-items: center;
+      background-color: #f8f9fa;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      
+    }
+    .dropdown {
+      position: relative;
+      margin-right: 20px;
+    }
+    .dropbtn {
+      background: none;
+      border: none;
+      font-size: 16px;
+      padding: 10px;
+      
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+    }
+    .dropdown-content a {
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+      transition-duration: 10s;
+      color: black;
+    }
+
+    .dropdown-content a:hover {
+   
+      text-decoration: underline;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      transition-duration: 10s;
+    }
+
+    .floatleft{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+      
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="floatleft">
+  <div class="top-nav">
+    <div class="dropdown">
+        <button class="dropbtn">New Courses</button>
+        <div class="dropdown-content">
+        <a href="#">DSA Course</a>
+        <a href="#">Front End HTML,CSS,Javascript</a>
+        <a href="#">Full Stack Developer</a>
+        <a href="#">Interview Preparation</a>
+        <a href="#">Programming Python</a>
+        
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Tutorials</button>
+      <div class="dropdown-content">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Practices</button>
+      <div class="dropdown-content">
+        <a href="#">Problems</a>
+        <a href="#">Contests</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Jobs</button>
+      <div class="dropdown-content">
+        <a href="#">Internships</a>
+        <a href="#">Hiring</a>
+      </div>
+    </div>
+
+<div class="dropdown">
+      <button class="dropbtn">Job Portals</button>
+      <div class="dropdown-content">
+        <a href="#">Naukri</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Indeed</a>
+        <a href="#">TimesJobs</a>
+        <a href="#">Freshersworld</a>
+        <a href="#">WorkIndia</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
