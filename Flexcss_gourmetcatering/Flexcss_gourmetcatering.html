@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexcss_gourmetcatering</title>
+    <style>
+        .parent{
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: white;
+        width: 100%;
+        top: 0;
+        }
+        .child{
+        display:flex;
+        column-gap:20px;
+       }
+       .parent1 {
+        position: relative;
+        z-index: -10;
+       }
+       .parent1 h1{
+        position: absolute;
+        top:700px;
+        right:1100px; 
+        } 
+       .parent2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        column-gap: 100px;
+       }
+       .parent2>img{
+        height: 500px;
+        width: 400px;
+       }
+       .parent3{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+       }
+       .child2{
+         flex-wrap: wrap;
+         padding-left: 50px;
+       }
+       .parent3>img{
+        height:500px;
+        width:400px;
+       }
+       .sunil{
+        background-color: darkgray;
+        height: 100px;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        }
+        .sunil p{
+            top: 50px;
+        }
+        .parent2 p{
+            line-height: 1.6rem;
+        }
+        .child2 p{
+            color: lightgrey;
+        }
+
+        .footer{
+                 display: flex;
+                 background-color: #f1f1f1;
+                 width: 100%;
+                 font-size: 30px;
+                 height: 80px;
+                 align-items: center;
+                 justify-content: center;
+                 margin-bottom: 0px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h3>Gourmet au Catering</h3>
+        <div class="child">
+            <p>About</p>
+            <p>Menu</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <div class="parent1">
+        <img src="https://www.w3schools.com/w3images/hamburger.jpg" height="800px" width="100%">
+
+        <h1>Le Catering</h1>
+    </div>
+    <div class="parent2">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="" style="cursor: pointer;">
+        <div class="child1">
+        <h1 style="padding-left: 300px;">About Catering</h1>
+        <h4 style="padding-left: 350px;">Tradition since 1889</h4>
+        <b><p>The Catering was founded in blabla by Mr. Smith in lorem ipsum 
+            dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in 
+             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.We only use seasonal ingredients.</p></b>
+        <p style="color:darkgray;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+            officia deserunt mollit anim id est laborum consectetur adipiscing 
+            elit, sed do eiusmod temporincididunt ut labore et dolore magna
+             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+             laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+    <div class="parent3">
+        <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="" style="cursor: pointer;">
+        <div class="child2">
+        <h1>Our Menu</h1>
+        <h3>Bread Basket</h3>
+        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+        <h3>Honey Almond Granola with Fruits</h3>
+        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <h3>Belgian Waffle</h3>
+        <p>Vanilla flavored batter with malted flour 7.50</p>
+        <h3>Scrambled eggs</h3>
+        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+        <h3>Blueberry Pancakes</h3>
+        <p>With syrup, butter and lots of berries 8.50</p></div>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+    <div class="parent4">
+        <h1>Contact</h1>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p>Do not hesitate to contact us.</p>
+        <h3 style="color: cadetblue;">Catering Service, 42nd Living St, 43043 New York, NY</h3>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <input type="text" placeholder="Name" style="width: 100%;" padding="50px"><br><br>
+        <input type="number" placeholder="How many People" style="width: 100%;" padding="50px"><br><br>
+        <input type="date" placeholder="17-09-2025 09:04" style="width: 100%;" padding="50px"><br><br>
+    </div>
+        <button style="background-color: lightgrey;cursor: pointer;">SEND MESSAGE</button>
+        <div class="om"></div>
+         <center><p class="footer">Powered by w3.css</p></center>
+</body>
+</html>

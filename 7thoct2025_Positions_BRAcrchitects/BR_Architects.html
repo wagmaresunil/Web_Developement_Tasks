@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions_BR_Architects</title>
+    <style>
+    body{
+        margin: 0;
+        
+    }
+.nav{
+     width: 100%;
+     background-color: aliceblue;
+     position: fixed;
+}
+
+.nav>h3{
+        display: inline-block;
+}
+
+.sub>p{
+    display: inline-block;
+    padding-left: 3px;
+    font-size: 15px;
+    padding: 6px;
+}
+.sub>p:hover{
+    background-color: rgb(88, 88, 88);
+    color: white;
+    cursor: pointer;
+}
+
+.sub{
+    display: inline-block;
+    margin-left: 950px;
+    
+}
+
+.parent1>img{
+    position: relative;
+    z-index: -10;   
+}
+
+.parent1>h1{
+             position: absolute;
+             top: 400px;
+             left: 600px;
+}
+
+.parent{
+        width: 100%;
+        align-items: center;
+        margin-left: 50px;
+}
+
+.child{
+       position: relative;
+       display: inline-block;
+       width: 23%;
+}
+
+.child>img{
+      width: 100%;
+       
+}
+
+.child>h2{
+           position: absolute;
+           margin: 0;
+           top: 0;
+           left: 0;
+           background-color: black;
+           color: white;
+           padding: 5px;
+           
+        }
+
+
+    .parent2{
+              width: 100%;
+    }
+    .parent2>.child2{
+        display: inline-block;
+        width: 23%;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .child2>img{
+                 width: 100%;
+    }
+
+    .suniltext{
+           margin-left: 5px;
+    }
+
+    input{
+           width: 98%;
+           height: 30px;
+           margin-left: 10px;
+           font-size: 15px;
+    }
+
+    .span{
+        margin-left: 10px;
+    }
+
+button{
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: 5px solid;
+        margin-left: 10px;
+}
+
+button:hover{
+       background-color: rgb(19, 25, 223);
+       cursor: pointer;
+       border-radius: 10px;
+       padding: 5px;
+       transition: all 0.3s ease-in-out;
+        
+}
+
+
+
+
+.footer>.p1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 80px;
+       background-color: black;
+       color: white;
+       
+       
+       
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h3><b>BR</b>Architects</h3>
+        <div class="sub">
+            <p>Projects</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+    </div>
+
+    <div class="parent1">
+    <img src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+    <h1><b style="background-color: darkgray;color: white;">BR</b> <span style="color: white;">Architects</span></h1>
+</div>
+
+<h2>Projects</h2>
+<hr>
+
+<div class="parent">
+    <div class="child">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+        <h2 class="h2">Summer House</h2>
+    </div>
+    <div class="child">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+        <h2 class="h2">Brick House</h2>
+    </div>
+    <div class="child">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+        <h2 class="h2">Renovated</h2>
+    </div>
+    <div class="child">
+        <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+        <h2 class="h2">Barn House</h2>
+    </div>
+</div>
+
+<div class="parent">
+    <div class="child">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+        <h2 class="h2">Summer House</h2>
+    </div>
+    <div class="child">
+         <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+        <h2 class="h2">Brick House</h2>
+    </div>
+    <div class="child">
+         <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+        <h2 class="h2">Renovated</h2>
+    </div>
+    <div class="child">
+         <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+        <h2 class="h2">Barn House</h2>
+    </div>
+</div>
+
+<h1>About</h1>
+<hr>
+<p class="suniltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="parent2">
+    <div class="child2">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h2>John Doe</h2>
+        <h3>CEO & Founder</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button style="background-color: rgb(94, 94, 94);font-family: Georgia, 'Times New Roman', Times, serif;cursor: pointer;">Contact</button>
+    </div>
+
+      <div class="child2">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+        <h2>Jane Doe</h2>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button style="background-color: rgb(94, 94, 94);font-family: Georgia, 'Times New Roman', Times, serif;cursor: pointer;">Contact</button>
+    </div>
+
+      <div class="child2">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+        <h2>Mike Ross</h2>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button style="background-color: rgb(94, 94, 94);font-family: Georgia, 'Times New Roman', Times, serif;cursor: pointer;">Contact</button>
+    </div>
+
+      <div class="child2">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+        <h2>Dan Star</h2>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button style="background-color: rgb(94, 94, 94);font-family: Georgia, 'Times New Roman', Times, serif;cursor: pointer;">Contact</button>
+    </div>
+</div>
+
+<h1>Contact</h1>
+<hr><br>
+<span class="span"> lets get in touch and talk about your next project.</span><br>
+<div class="forms">
+    <form>
+        <input type="text" placeholder="Name" required><br><br>
+        <input type="text" placeholder="Email" required><br><br>
+        <input type="text" placeholder="Subject" required><br><br>
+        <input type="text" placeholder="Comment" required>
+    </form>
+</div>
+<br>
+<button class="sendmessage">SEND MESSAGE</button><br><br>
+
+
+<div class="maps">
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+</div>
+
+<div class="footer">
+    <p class="p1">Powered by w3.css</p>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
