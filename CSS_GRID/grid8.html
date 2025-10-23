@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        *{
+             background-color: #f1f1f1;
+        }
+        .parent{
+            padding:10px;
+           
+            display:grid;
+            grid-template-columns:repeat(5,1fr);
+             grid-template-rows: repeat(4,180px); 
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        .child1{
+            background-color: cornflowerblue;
+        }
+         .child2{
+            background-color: hotpink; 
+        }
+         .child3{
+            background-color:burlywood;    
+        }
+         .child4{
+            background-color: orange;
+        }
+         .child5{
+            background-color:red;
+        }
+        .child6{
+            background-color:darkgrey;
+        }
+        .child7{
+            background-color: cornflowerblue;
+        }
+         .child8{
+            background-color: hotpink; 
+            grid-column:3/6;
+        }
+         .child9{
+            background-color:burlywood;   
+            grid-column: 1/6; 
+        }
+    </style>
+    </head>
+<body>
+   <a href="./index.html" style="text-align: left;">Back To Home</a>
+    <div class="parent">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+        <div class="child6"></div>
+        <div class="child7"></div>
+        <div class="child8"></div>
+        <div class="child9"></div>
+    
+       
+    </div>
+
+
+    
+</body>
+</html>
